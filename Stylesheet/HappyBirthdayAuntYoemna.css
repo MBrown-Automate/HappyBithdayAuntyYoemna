@@ -1,0 +1,40 @@
+html {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    text-align: center;
+    width: 375px;
+}
+
+.birthdaymessage {
+    max-height: 600px;
+    text-align: center;
+}
+
+.birthdaymessage div img {}
+
+.birthdaymessage div {
+    font-family: 'Dancing Script', cursive;
+    color: whitesmoke;
+    font-size: 36px;
+    width: 600px;
+    border: none;
+}
+
+#ProfilePicture {
+    margin-left: 115px;
+    align-self: center;
+    border-radius: 50%;
+    width: 360px;
+}
